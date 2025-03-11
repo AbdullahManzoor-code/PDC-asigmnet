@@ -47,6 +47,7 @@ int main() {
     clock_t end = clock();
     
     double time = ((double)(end - start)) / CLOCKS_PER_SEC;
+    sleep(1);
     printf("Sequential time: %.4f seconds\n", time);
     
     return 0;
